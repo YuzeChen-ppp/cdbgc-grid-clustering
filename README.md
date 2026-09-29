@@ -112,7 +112,10 @@ R/02_two_moons_tuning.R      Two-moons benchmark; hyper-parameter sweep over gri
                              outlier-penalised DBCV objective, plus the tuning-surface and density plots.
 R/03_ARI_vs_baselines.R      Two-moons benchmark; ARI comparison of CDBGC against K-means and
                              Ward.D2 hierarchical clustering.
-poster/CDBGC_poster.pdf      The A0 research poster (LaTeX).
+poster/CDBGC_poster.pdf      The compiled A0 research poster.
+latex/poster.tex             LaTeX source of the poster, plus its figures and bibliography.
+                             Built with the Imperial College London poster template (XeLaTeX);
+                             the class file is not redistributed here — see latex/README.md.
 figures/                     Figures used in the poster: grid construction, density heat map, connected
                              components, adjusted-DBCV tuning surface, ground truth vs. output, K-means
                              comparison, and the end-to-end workflow diagram.
